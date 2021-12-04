@@ -1,4 +1,5 @@
-django==1.4.11
+django==2.2.24
 flask==1.0
 requests==2.20
-tornado==3.2.2
+tornado==5.1
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
